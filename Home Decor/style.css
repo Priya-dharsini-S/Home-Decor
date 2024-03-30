@@ -1,0 +1,33 @@
+.middle{
+    text-align: justify;
+}
+
+.single_footer ul li a{
+    text-decoration: none;
+    color:green;
+
+}
+
+.single_footer ul li{
+    list-style-type:circle;
+}
+
+.social_profile ul li{
+    list-style-type:circle;
+    
+}
+
+.social_profile ul li{
+    color:green;
+}
+
+center{
+    margin-top:5%;
+    margin-bottom:3%;
+}
+
+ul li a:hover{
+    color:rgb(57, 165, 49) !important;
+    border-bottom:3px solid purple;
+}
+

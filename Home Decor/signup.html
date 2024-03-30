@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.png" alt="" height="40">
+              </a>
+          <a class="navbar-brand fw-bold" href="#">Artistic</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+              <li class="nav-item ms-5">
+                <a class="nav-link active fw-bold " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-dark fw-bold" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown ms-5">
+                <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="design.html">Design</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link active fw-bold" aria-current="page" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+            <div>
+                <a href="login.html"> <button type="button" class="btn btn-outline-success">LOGIN</button></a>
+                <a href="signup.html"> <button type="button" class="btn btn-outline-success">SIGN UP</button></a>
+              </div>
+    
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Registration 13 - Bootstrap Brain Component -->
+<section class="bg-light py-3 py-md-5">
+  <div class="container ">
+    <div class="row justify-content-center ">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+        <div class="card border border-light-subtle rounded-3 shadow-sm bg-success">
+          <div class="card-body p-3 p-md-4 p-xl-5">
+            <div class="text-center mb-3">
+              <a href="login.html">
+                <img src="./img/reg.jpg" alt="BootstrapBrain Logo" width="200" height="200">
+              </a>
+            </div>
+            <h2 class="fs-6 fw-semibold text-center text-light mb-4">Enter your details to register</h2>
+            <form action="login.html" >
+              <div class="row gy-2 overflow-hidden">
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name" required>
+                    <label for="firstName" class="form-label">First Name</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name" required>
+                    <label for="lastName" class="form-label">Last Name</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                    <label for="email" class="form-label">Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control" name="password" id="password" value="" placeholder="Password" required>
+                    <label for="password" class="form-label">Password</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" name="iAgree" id="iAgree" required>
+                    <label class="form-check-label text-dark" for="iAgree">
+                      I agree to the <a href="#!" class="link-dark text-decoration-none">terms and conditions</a>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="d-grid my-3">
+                    <button class="btn btn-primary btn-lg" type="submit">Sign up</button>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <p class="m-0 text-dark text-center">Already have an account? <a href="login.html" class="link-light text-decoration-none">Sign in</a></p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+       
+        <div class="footer bg-light text-dark mt-5 pt-5">
+            <div class="container">     
+                <div class="row">                       
+                    <div class="col-lg-4 col-sm-4 col-xs-12">
+                        <div class="single_footer">
+                            <h4>Help</h4>
+                            <ul>
+                                <li><a href="#">Find Your Beer</a></li>
+                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="#">Contact </a></li>
+                                <li><a href="#">Recent Orders</a></li>
+                              
+                            </ul>
+                        </div>
+                    </div><!--- END COL --> 
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <h4>Page Link</h4>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">404 page</a></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </div>
+                    </div><!--- END COL -->
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="single_footer single_footer_address">
+                            <div class="signup_form">                           
+                                <form action="#" class="subscribe">
+                                    <input type="text" class="subscribe__input" placeholder="Enter Email Address">
+                                    <button type="button" class="subscribe__btn"><i class="fas fa-paper-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="social_profile">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a>Facebook</li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a> Twitter</li>
+                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a>Google</li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a>Instagram</li>
+                            </ul>
+                        </div>                          
+                    </div><!--- END COL -->         
+                </div><!--- END ROW --> 
+                              
+            </div><!--- END CONTAINER -->
+        </div>
+
+      <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
